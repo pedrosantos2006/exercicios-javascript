@@ -1,0 +1,18 @@
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-group > button {
+    box-shadow: none;
+    border: 1px solid #cecece;
+    background: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.buttonClicked {
+    background-color: #0b8500 !important;
+    color: #fff;
+}
